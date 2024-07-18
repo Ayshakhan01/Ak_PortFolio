@@ -13,7 +13,7 @@ export default function Footer() {
                 <a href="https://x.com/Aysha_khan_01" className='footer-link' target="_blank" rel='noreferrer' title='Twitter'><Twitter /></a>
                 {/* <a href="https://instagram.com/nombre_es_surya" className='footer-link' target="_blank" rel='noreferrer' title='Instagram'><Instagram /></a> */}
             </div>
-            <p style={{textAlign:'center',alignItems:'center'}}><Copyright sx={{marginTop:'-2px'}} /> Developed by <a href="https://github.com/Ayshakhan01" className='footer-link' style={{textDecoration:'none',color:'#89CFF0'}} rel='noreferrer'>Aysha Khan</a></p>
+            <p style={{textAlign:'center',alignItems:'center'}}><Copyright sx={{marginTop:'-2px'}} /> Developed by <a href="https://github.com/Ayshakhan01" className='footer-link' style={{textDecoration:'none',color:'#4398af'}} rel='noreferrer'>Aysha Khan</a></p>
         </div>
     )
 

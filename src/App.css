@@ -2,15 +2,15 @@
 
 * {
   user-select: none;
-  background-color: #212431;
-  color: white;
+  background-color: white;
+  color: #212431;
   font-family: "Nunito Sans", sans-serif;
 }
 
 .brand-name {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  color: aliceblue;
+  color: #4398af;
   font-variation-settings:
     "wdth" 100;
   padding: 15px 8.5px;
@@ -25,33 +25,33 @@
 }
 
 .navbar{
-  box-shadow: 0px 0px 4px 3px rgb(18, 27, 41);
+  box-shadow: 0px 0px 4px 3px #265764;
 }
 
 .nav-item {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600 !important;
   padding: 0px 15px;
-  color: white !important;
+  color:grey !important;
   font-size: 15px;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  color: aquamarine !important;
+  color: #4398af !important;
 }
 
 .bgremove {
-  border: 1px solid white;
+  border: 1px solid gray;
   padding: 10px;
   border-radius: 10px;
 }
 
 .bgremove:hover {
-  border: 1px solid white;
+  border: 1px solid #4398af;
   padding: 10px;
   margin: -1px 2px;
-  box-shadow: 0px 0px 4px 2px aquamarine;
+  box-shadow: 0px 0px 4px 2px #4398af;
   border-radius: 10px;
 }
 
@@ -65,18 +65,18 @@
   width: 100px;
   height: 40px;
   cursor: pointer;
-  color: white;
+  color: black;
   font-weight: 500;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
-  border: 1px solid white;
+  border: 2px solid #4398af;
   border-radius: 10px;
 }
 
 .resume-btn:hover{
-  background-color: #212431;
+  background-color: #4398af;
   color: white;
 }
 
@@ -111,17 +111,17 @@
   margin-bottom: 20px;
   margin-top: 20px;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 2px white;
+  box-shadow: 0px 1px 4px 2px #4398af;
 }
 
 .rkv:hover {
-  box-shadow: 0px 0px 3px 3px aquamarine;
+  box-shadow: 0px 0px 3px 3px #4398af;
   padding:2px;
-  background-color: white;
+  background-color: #4398af;
 }
 
 .card:hover{
-  box-shadow: 0px 0px 2px 2px aquamarine;
+  box-shadow: 0px 0px 2px 2px #4398af;
 }
 
 .dsa-links{
@@ -143,20 +143,20 @@
 
 .animated-image {
   animation: float 20s infinite alternate;
-  box-shadow: 0 4px 6px rgba(255, 255, 255), 0 1px 3px rgba(255, 255, 255);
+  box-shadow: 0 4px 6px #265764, 0 1px 3px #265764;
 }
 
 .card{
-  border: 1px solid white;
+  border: 1px solid #4398af;
 }
 
 .footer_link {
-  color: white;
+  color: #4398af;
   font-size: 30px;
 }
 
 .footer_link:hover {
-  color: aquamarine;
+  color: #4398af;
   background-color: #212431;
 }
 

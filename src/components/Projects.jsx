@@ -39,7 +39,7 @@ export default function Projects() {
 
     return (
         <div className='container' id='projects'>
-            <h1 style={{ color: '#89CFF0', marginTop: '4cm' }}>Projects</h1><br />
+            <h1 style={{ color: '#4398af', marginTop: '4cm' }}>Projects</h1><br />
             <Row>
                 {projects.map((project, index) => (
                     <Col className='p-3' style={{borderColor:'red'}} md={3} lg={4} key={index}>

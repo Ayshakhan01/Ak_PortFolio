@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Webhook } from '@mui/icons-material';
-import logo from '../logo.svg';
+import logo from '../logo11.png';
 import '../App.css';
 
 export default function NavbarHome() {
@@ -22,7 +22,7 @@ export default function NavbarHome() {
                         className='App-logo'
                         src={logo}
                     />
-                    <span className='brand-name'>Port <span style={{ color: '#89CFF0' }}>Folio</span></span>
+                    <span className='brand-name'>Port <span style={{ color: '1d414b' }}>Folio</span></span>
                 </Navbar.Brand>
                 <Navbar.Toggle onClick={handleToggleOffcanvas}>
                     <Webhook style={{ color: '#89CFF0', fontSize: '30px' }} />

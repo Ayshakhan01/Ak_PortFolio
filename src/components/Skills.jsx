@@ -2,11 +2,11 @@ import React from 'react';
 import next from '../images/nextjs.svg'
 import material from '../images/materialui.svg'
 import mongodb from '../images/mongo.webp'
-import nodejs from '../images/nodejs.svg'
+import nodejs from '../images/node.png'
 import bootstrap from '../images/bootstrap.png'
 import express from '../images/express.png'
 import mysql from '../images/mysql.webp'
-import latex from '../images/latex.svg'
+import latex from '../images/latex1.png'
 import java from '../images/java.webp'
 import python from '../images/python.webp'
 import c from '../images/c.png'
@@ -18,7 +18,7 @@ import tailwind from '../images/tailwind.webp'
 import git from '../images/git.webp'
 import github from '../images/github.png'
 import figma from '../images/figma.webp'
-import react from '../images/react.svg'
+import react from '../images/logo11.png'
 import windows from '../images/windows.png'
 import ubuntu from '../images/ubuntu.png'
 import vscode from '../images/vscode.webp'
@@ -37,7 +37,7 @@ import { Stack } from '@mui/material';
 export default function Skills() {
     return (
         <div className='container' id='skills'>
-            <h1 style={{ color: '#89CFF0', marginTop: '4cm' }}>Skills</h1><br />
+            <h1 style={{ color: '#4398af', marginTop: '4cm' }}>Skills</h1><br />
             <div className='languages'>
                 <h3 style={{marginLeft:'15px'}}>Frameworks</h3><br />
                 <Stack style={{ marginLeft: '15px' }} overflowY="auto" direction="row" flexWrap="wrap" justifyContent="start" gap={1.5}>

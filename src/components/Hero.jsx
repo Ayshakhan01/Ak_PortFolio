@@ -54,7 +54,7 @@ export default function Hero() {
                 <Row className="d-flex flex-column-reverse flex-md-row">
                     <Col sm={12} md={8}>
                         <div className='text'>
-                            <h5 style={{ display:'flex',alignItems:'center',color: 'white', fontWeight: '600' }}>Hey Devs <img src={hi} style={{margin:'0px 5px'}} width='30' height='30' alt="hi" /> ,</h5>
+                            <h5 style={{ display:'flex',alignItems:'center',color: 'black', fontWeight: '600' }}>Hey Devs <img src={hi} style={{margin:'0px 5px'}} width='30' height='30' alt="hi" /> ,</h5>
                             <TypeAnimation
                                 sequence={[
                                     'I am Aysha Khan', 1500,
@@ -65,11 +65,11 @@ export default function Hero() {
                                 ]}
                                 wrapper="span"
                                 speed={50}
-                                style={{ color: '#89CFF0', fontSize: '2em', display: 'inline-block' }}
+                                style={{ color: '#265764', fontSize: '2em', display: 'inline-block' }}
                                 repeat={Infinity}
                             /><br /><br />
-                            <p style={{ color: 'white', fontWeight: '600' }}>
-                            I am enthusiastic about creating high-quality web applications with the <span style={{ color: '#89CFF0' }}>MERN Stack</span>and have a strong focus on <span style={{ color: '#89CFF0' }}>Cyber Security</span>. I am committed to delivering smooth user experiences through clean and efficient code. Let's work together to bring your ideas to life! <br /><br /></p>
+                            <p style={{ color: 'grey', fontWeight: '600' }}>
+                            I am enthusiastic about creating high-quality web applications with the <span style={{ color: '#265764' }}>MERN Stack</span>and have a strong focus on <span style={{ color: '#265764' }}>Cyber Security</span>. I am committed to delivering smooth user experiences through clean and efficient code. Let's work together to bring your ideas to life! <br /><br /></p>
                             <a className='resume-btn' rel='noreferrer' target='_blank' href="https://drive.google.com/file/d/1BPPpFdCxA2ySajQWQqQfCkNCfU8z4v29/view?usp=sharing">Resume</a>
                             <br /><br />
                         </div>
